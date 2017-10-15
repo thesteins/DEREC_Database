@@ -1,0 +1,1 @@
+..\packages\FluentMigrator.Tools.1.6.2\tools\AnyCPU\40\migrate.exe --conn "server=DESKTOP-8SFGCFF;Database=FluentTest;Trusted_Connection=True;" --provider sqlserver2014 -assembly "..\..\Fluent_Database\Fluent_Database\bin\Debug\Fluent_Database.dll" -task migrate:up -output -outputFilename migrated.sql
